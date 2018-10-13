@@ -1,0 +1,270 @@
+html, body, body *
+{
+	margin           : 0;
+	padding          : 0;
+	border           : 1;
+	border-color     : "#999";
+	outline          : 1;
+	background       : transparent;
+	vertival-align   : top;
+}
+
+body
+{
+	text-align       : center;
+}
+
+div.Center
+{
+	width            : 1050;
+	margin           : 0 auto;
+	text-align       : center
+}
+
+/*  �w�b�_�[  */
+div.Header
+{
+	padding-top      : 10px;
+	padding-bottom   : 10px;
+	text-align       : center;
+}
+
+/*  �w�b�_�[�J�e�S��  */
+div.HdCategory
+{
+	width            : 100%;
+	overflow         : hidden;
+	margin-top       : 10px;
+	margin-bottom    : 20px;
+}
+
+div.Navigation
+{
+	text-align       : left;
+}
+
+/*  �O�g  */
+div.OuterFrame
+{
+	background-color : #FCECF9;
+	width            : 1050px;
+	margin           : auto;
+	padding          : auto;
+}
+
+div.OuterFrame
+{
+	border           : solid 1px;
+	border-color     : #E769D0;
+}
+
+div.MainContents1
+{
+	width             : 1030px;
+}
+
+div.Wrap
+{
+	width             : 100%;
+	*width            : 1030px;
+	display           : table;
+}
+
+div.LEFTside,
+div.MIDside,
+div.RIGHTside
+{
+	display           : table-cell;
+	float             : left;
+}
+
+div.LEFTside
+{
+	width             : 170px;
+	margin-top        : 15px;
+	margin-bottom     : 15px;
+	margin-left       : 10px;
+	margin-right      : 0;
+/*	padding-bottom    : 5px; */
+	background-color  : #F7CDEF;
+	height            : 98px; <!-- auto -->
+}
+
+div.LEFTside
+{
+	border            : solid 1px;
+	border-color      : #E769D0;
+}
+
+div.MIDside
+{
+	width             : 700px;
+/*	border            : solid 1px;
+	border-color      : #E769D0;*/
+}
+
+div.RIGHTside
+{
+	width             : 130px;
+	margin-top        : 15px;
+	margin-bottom     : 15px;
+	margin-left       : 10px;
+	margin-right      : 0;
+	padding-bottom    : 5px;
+	background-color  : #F7CDEF;
+	height            : auto;
+}
+
+div.LEFTside2,
+div.MIDside2
+{
+	display           : table-cell;
+	float             : left;
+}
+
+div.LEFTside2
+{
+	width             : 170px;
+	margin-top        : 15px;
+/*	margin-bottom     : 15px; */
+	margin-left       : 10px;
+	margin-right      : 0;
+/*	padding-bottom    : 5px; */
+	background-color  : #F7CDEF;
+	height            : auto;
+}
+
+div.LEFTside2
+{
+	border            : solid 1px;
+	border-color      : #E769D0;
+}
+
+div.MIDside2
+{
+	width             : 830px;
+/*	border            : solid 1px;
+	border-color      : #E769D0;*/
+}
+
+div.Footer
+{
+	clear             : both;
+}
+
+/**  �g�b�v��ʗp  **/
+div.Infomation, div.Infomation0
+{
+	height           : auto;
+	margin-top       : 15px;
+	margin-left      : 8px;
+	margin-right     : 0px;
+	background-color : #F7CDEF;
+}
+
+div.Infomation
+{
+	border           : solid 1px;
+	border-color     : #E769D0;
+}
+
+div.InfomationTitle
+{
+	background-color : #BE2FA3;
+	color            : #FFFFFF;
+	font-size        : 120%;
+	font-style       : bold;
+	text-align       : center;
+	padding-left     : 0;
+	margin-left      : 0;
+	height           : 25px;
+	line-height      : 25px;
+}
+
+div.InfomationContent
+{
+	text-align       : left;
+	font-size        : 100%;
+	line-height      : 1.6;
+	padding-left     : 10px;
+	padding-right    : 7px;
+	padding-top      : 10px;
+	padding-bottom   : 10px;
+	margin-bottom    : 10px;
+}
+
+/*  ���ʉ�ʖ{���p  */
+div.Entry, div.Entry0
+{
+	height           : auto;
+	margin           : auto;
+	margin-top       : 15px;
+	margin-left      : 5px;
+/*	padding          : auto;*/
+	padding-top      : 0;
+	background-color : #F7CDEF;
+}
+
+div.Entry
+{
+	border           : solid 1px;
+	border-color     : #E769D0;
+}
+
+div.EntryTitle
+{
+	background-color : #E769D0;
+	color            : #701C60;
+	font-size        : 120%;
+	font-weight      : bold;
+	text-align       : center;
+	border-right     : solid 3px;
+	border-bottom    : solid 3px;
+	border-color     : #DF37C0;
+	margin-left      : 0;
+	height           : 25px;
+	line-height      : 25px;
+}
+
+div.EntryContent
+{
+	text-align       : left;
+	padding-left     : 10px;
+	padding-right    : 7px;
+	padding-top      : 10px;
+	padding-bottom   : 10px;
+	margin-bottom    : 10px;
+}
+
+hr
+{
+	border           : solid 2px #6F6F37;
+	width            : 97%;
+	margin-top       : 8px;
+	margin-bottom    : 8px;
+	*margin-top      : 5px;  /* for IE */
+	*margin-bottom   : 5px;  /* for IE */
+}
+
+ul.base
+{
+	list-style-type  : none;
+	margin-top       : 10px;
+	margin-left      : 5px;
+	margin-right     : 5px;
+	text-align       : center;
+}
+
+
+li.ctg
+{
+	list-style-type  : none;
+	padding-left     : 1em;
+}
+
+
+/*  ���̑�  */
+div.Clear
+{
+	clear            : both;
+}
